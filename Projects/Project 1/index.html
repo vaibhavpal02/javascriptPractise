@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        div
+        {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-top: 50px;
+          margin-bottom: 20px;
+        }
+        #yellow
+        {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            background-color: yellow;
+        }
+        #grey
+        {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            background-color: gray;
+        }
+        #green
+        {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            background-color: green;
+        }
+        #blue
+        {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            background-color: blue;
+        }
+        body
+        {
+            color: white;
+            background-color: #212121;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color scheme switcher</h1><hr>
+    <div>
+    <span class="button" id="grey"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="green"></span>
+    </div>
+    
+    <h2>Try clicking on any of them to change the background Colour</h2>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+
+</html>
